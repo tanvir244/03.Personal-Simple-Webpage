@@ -1,0 +1,212 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-btn{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    font-size: 40px;
+}
+.heading-h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.global-paragraph{
+    color: #7B7B7B;
+}
+.container{
+    margin: 50px 80px;
+}
+/* First Section  */
+.first-section{
+    background-image: url(images/tim-marshall-K2u71wv2eI4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+.first-section p{
+    font-size: 3rem;
+}
+.first-section h2{
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+/* About Me  */
+.about-me .col-md-12{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about-me .col-md-12 h2{
+    margin-bottom: 20px;
+}
+.about-me .col-md-6{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 0 0 0 60px;
+}
+.col-md-6-image{
+    width: 30%;
+    height: 270px;
+}
+.about-me .col-md-6-Wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.about-me img{
+    width: 100%;
+    height: 100%;
+}
+.about-me .col-md-6 p{
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+/* Service section */
+.service-section .col-md-12{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.service-section .col-md-3-Wrapper{
+    width: 100%;    
+}
+.service-section .col-md-3{
+    width: 23%;
+    text-align: center;
+    color: #fff;
+    
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 30px;
+    border-radius: 20px;
+}
+.service-section .col-md-3:nth-child(1){
+    background: #6C6CE5;
+    margin-right: 88px;
+}
+.service-section .col-md-3:nth-child(2){
+    background: #F9D74C;
+}
+.service-section .col-md-3:nth-child(3){
+    background: #F97B8B;
+    float: right;
+}
+
+/* Price Section */
+.price-section .col-md-12{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.price-section .col-md-3{
+    width: 23%;
+    text-align: center;
+    color: #000;
+    
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0px 0px 12px 0px black;
+}
+.price-section .col-md-3-Wrapper{
+    width: 100%;    
+}
+.price-section .first-p{
+    margin-bottom: 15px;
+}
+.price-section .secound-p{
+    margin-bottom: 20px;
+}
+.price-section .third-p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.price-section .third-p span{
+    font-size: 40px;
+}
+.price-section .col-md-3-Wrapper .col-md-3:nth-child(3){
+    float: right;
+}
+.price-section .col-md-3-Wrapper .col-md-3:nth-child(2){
+    margin-left: 85px;
+}
+/* Get In Touch  */
+.get-touch-section .col-md-Wrapper{
+    width: 100%;
+}
+.get-touch-section .col-md-4{
+    width: 30%;
+}
+.get-touch-section .col-md-8{
+    width: 70%;
+}
+.get-touch-section .col-md-Wrapper{
+    display: flex;
+}
+.get-touch-section .first-line{
+    display: flex;
+    margin-bottom: 36px;
+}
+.get-touch-section .first-line input{
+    width: 280px;
+    font-size: 20px;
+    padding: 16px 100px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 0px 0px 16px 10px #e9e9e9;
+    border-radius: 70px;
+}
+.get-touch-section .first-line .text_field:nth-child(2){
+    margin-left: 12px;
+    float: right;
+}
+.get-touch-section .sub_field input{
+    width: 700px;
+    font-size: 20px;
+    padding: 16px 100px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 0px 0px 16px 10px #e9e9e9;
+    border-radius: 70px;
+}
+.get-touch-section .sub_field{
+    margin-bottom: 36px;
+}
+.get-touch-section .message_field textarea{
+    width: 700px;
+    font-size: 20px;
+    padding: 16px 100px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 0px 0px 16px 10px #e9e9e9;
+    border-radius: 24px;
+    height: 150px;
+}
+.get-touch-section .message_field{
+    margin-bottom: 50px;
+}
+.get-touch-section .col-md-12{
+    margin-bottom: 70px;
+    text-align: center;
+}
